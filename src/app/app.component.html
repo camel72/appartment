@@ -1,7 +1,17 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<p-galleria [images]="images" panelWidth="400" panelHeight="320" [autoPlay]="false" [showCaption]="true"></p-galleria>
 
-<div style="text-align:center">
+<div class="container-fluid">
+  <h1>
+    {{title}}
+  </h1>
+  <p class="blockquote-footer">
+    Enjoy your stay... happy neutral dating!
+  </p>
+  <div class="container">
+    <app-gallery></app-gallery>
+  </div>
+</div>
+<!--div style="text-align:center">
   <h1>
     Welcome to {{title}} test
   </h1>
@@ -18,4 +28,4 @@
   <li>
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
-</ul>
+</ul-->
