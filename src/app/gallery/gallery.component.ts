@@ -12,8 +12,8 @@ export class GalleryComponent implements OnInit {
 
     ngOnInit() {
         this.images = [];        
-        this.images.push({source: '/assets/pdp.jpg', alt: 'previously Petra', title: 'pdp'});
-        this.images.push({source: '/assets/eloise.jpeg', alt: 'previously Brubo', title: 'eloise'});        
-        this.images.push({source: '/assets/gert.jpeg', alt: 'previously 1sproetj2', title: 'Rocket Sciencer'});        
+        this.images.push({source: '/assets/pdp.jpg', alt: 'previously known as Petra', title: 'pdp'});
+        this.images.push({source: '/assets/eloise.jpeg', alt: 'previously known as Brubo', title: 'eloise'});        
+        this.images.push({source: '/assets/gert.jpeg', alt: 'previously known as Sabine', title: 'Rocket Sciencer'});        
     }
   }
